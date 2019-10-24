@@ -1,4 +1,4 @@
-let url = "https://api.thecatapi.com/v1/breeds/search?q=" + process.argv[2];
+
 const { fetchBreedDescription } = require('./breedFetcher');
 
 const breedName = process.argv[2];
